@@ -9,7 +9,7 @@ package it.uniroma3.diadia.attrezzi;
  *
  * @author  docente di POO
  * @see Stanza
- * @version base
+ * @version v0.1
  */
 public class Attrezzo {
 
@@ -50,4 +50,4 @@ public class Attrezzo {
 		return this.getNome()+" "+this.getPeso()+"kg";
 	}
 
-}
+} 

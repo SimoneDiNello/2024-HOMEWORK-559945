@@ -42,4 +42,4 @@ public class Comando {
     public boolean sconosciuto() {
         return (this.nome == null);
     }
-}
+} 

@@ -1,5 +1,15 @@
 package it.uniroma3.diadia.giocatore;
 
+
+/**
+ * Classe che modella e gestisce un giocatore 
+ * Un giocatore può spostarsi tra le stanze e
+ * interaggire con esse ve gli oggetti al loro interno.
+ * @author docente di POO & matricola 559945
+ * @see Borsa
+ * @version v0.1
+ * 
+ */
 public class Giocatore {
 	private final static int CFU_INIZIALI_DEFAULT = 20;
 	private int cfu;
@@ -11,7 +21,7 @@ public class Giocatore {
 	}
 
 	public int getCfu() {
-		return cfu;
+		return this.cfu;
 	}
 
 	public void setCfu(int cfu) {
@@ -26,5 +36,9 @@ public class Giocatore {
 		this.borsa = borsa;
 	}
 	
-}
+	public String toString() {
+		return "CFU: " + this.getCfu();
+	}
+	
 
+}
